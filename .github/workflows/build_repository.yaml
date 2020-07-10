@@ -36,7 +36,6 @@ jobs:
           ttf-freebanglafont
           ttf-mph-2b-damase
           ttf-ubraille
-          uefi-shell-git
           vdhcoapp-bin
           xfig
         missing_pacman_dependencies: >
