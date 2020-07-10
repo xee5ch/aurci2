@@ -1,7 +1,10 @@
 name: Make Repository
 
 on:
-  push
+  push:
+    branches:
+      - master
+      - debug
   schedule:
     - cron: "21 4 * * 0"
 
