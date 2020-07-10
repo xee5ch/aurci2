@@ -10,7 +10,7 @@ jobs:
       id: date
       run: echo "::set-output name=date::$(date +'%Y-%m-%d %H:%M')"
     - name: Build Packages
-      uses: kopp/build-aur-packages@d691a1c
+      uses: kopp/build-aur-packages@debug
       with:
         packages: mons
     - name: List generated Files
