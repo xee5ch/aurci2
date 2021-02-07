@@ -30,6 +30,7 @@ jobs:
           python-pydub
           python-pyminifier
           simple-mtpfs
+          jmtpfs
           skypeforlinux-stable-bin
           srecord
           ttf-cheapskate
@@ -37,9 +38,8 @@ jobs:
           ttf-mph-2b-damase
           ttf-ubraille
           vdhcoapp-bin
+          visual-studio-code-bin
           xfig
-        missing_pacman_dependencies: >
-          libusb-compat
 
     - name: List generated Files
       run: ls -1 > ${{ github.workspace }}/files.txt
