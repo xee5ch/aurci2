@@ -23,7 +23,7 @@ jobs:
           azure-cli
           conan
           fuse-overlayfs-git
-          micronucleus-git
+          # micronucleus-git  # currently fails; see https://aur.archlinux.org/packages/micronucleus-git/
           mons
           neovim-symlinks
           onedrive-abraunegg
