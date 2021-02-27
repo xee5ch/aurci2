@@ -22,7 +22,6 @@ jobs:
         packages: >
           azure-cli
           conan
-          fuse-overlayfs-git
           # micronucleus-git  # currently fails; see https://aur.archlinux.org/packages/micronucleus-git/
           mons
           neovim-symlinks
@@ -30,7 +29,6 @@ jobs:
           python-ipympl
           python-pydub
           python-pyminifier
-          simple-mtpfs
           jmtpfs
           skypeforlinux-stable-bin
           srecord
