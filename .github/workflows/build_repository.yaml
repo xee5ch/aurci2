@@ -34,10 +34,6 @@ jobs:
           jmtpfs
           skypeforlinux-stable-bin
           srecord
-          ttf-cheapskate
-          ttf-freebanglafont
-          ttf-mph-2b-damase
-          ttf-ubraille
           vdhcoapp-bin
           visual-studio-code-bin
           xfig
