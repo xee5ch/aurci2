@@ -7,6 +7,9 @@ on:
       - debug
   schedule:
     - cron: "21 4 * * 0"
+  workflow_dispatch:
+    inputs:
+      description: 'An optional description for manual workflow trigger.'
 
 jobs:
   build_repository:
