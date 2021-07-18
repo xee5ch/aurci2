@@ -17,26 +17,10 @@ jobs:
       run: echo "::set-output name=date::$(date +'%Y-%m-%d %H:%M')"
 
     - name: Build Packages
-      uses: kopp/build-aur-packages@v1-glibcfix
+      uses: xee5ch/build-aur-packages@v1.0.1-alpha
       with:
         packages: >
-          azure-cli
-          conan
-          micronucleus-git
-          mons
-          neovim-symlinks
-          onedrive-abraunegg
-          python-ipympl
-          python-pydub
-          python-pyminifier
-          jmtpfs
-          skypeforlinux-stable-bin
-          srecord
-          sourcetrail
-          teams
-          vdhcoapp-bin
-          visual-studio-code-bin
-          xfig
+          imdone-bin
 
     - name: List generated Files
       run: ls -1 > ${{ github.workspace }}/files.txt
